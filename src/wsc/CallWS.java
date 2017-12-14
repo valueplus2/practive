@@ -78,6 +78,7 @@ public class CallWS {
 	      if (queryResults.getSize() > 0) {
 	          for (SObject s: queryResults.getRecords()) {
 	            System.out.println("Id: " + s.getId() + " " + s.getField("FirstName"));
+	            System.out.println("小白");
 	          }
 	        }
 	    } catch (Exception e) {
