@@ -79,6 +79,7 @@ public class CallWS {
 	          for (SObject s: queryResults.getRecords()) {
 	            System.out.println("Id: " + s.getId() + " " + s.getField("FirstName"));
 	            System.out.println("小白");
+	            System.out.println("小hong");
 	          }
 	        }
 	    } catch (Exception e) {
