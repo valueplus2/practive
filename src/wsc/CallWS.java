@@ -80,6 +80,7 @@ public class CallWS {
 	            System.out.println("Id: " + s.getId() + " " + s.getField("FirstName"));
 	            System.out.println("小白");
 	            System.out.println("小hong");
+	            System.out.println("小");
 	          }
 	        }
 	    } catch (Exception e) {
